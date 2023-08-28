@@ -1,0 +1,84 @@
+<html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <!-- <link rel="stylesheet" href="animatation.css"> -->
+    <title>Login</title>
+</head>
+
+<style>
+    body {
+        background-image: url("https://wallpaperaccess.com/full/41607.jpg");
+    }
+
+    h3 {
+        margin-left: -150px;
+        align-items: center;
+    }
+
+    .main {
+        margin-left: 215px;
+        animation-name: comm;
+        color: aquamarine;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes comm {
+        form {
+            color: aquamarine;
+        }
+
+        to {
+            color: brown;
+        }
+    }
+    .b{
+        width: 180px;
+
+    }
+</style>
+
+<body>
+    <header>
+        <div class="head"><a id="a1" href="home.html">Home</a>
+            <a id="a1" href="About.html">About US</a>
+            <a id="a1" href="Menu.html">Menu</a>
+            <a id="a1" href="contact.html">Contact&nbsp;US</a>
+            <!-- <a id="a1" href="login.html">Login</a> -->
+        </div>
+    </header><br>
+
+    <div class="box">
+
+        <form>
+            <div class="main">
+                <tr>
+                    <td>
+                        <h2>Login</h3>
+                    </td>
+            </div>
+            <div class="row">
+
+                <label for="email">Usename: </label>
+                <input type="email" id="email" name="email" placeholder="hello54@gmail.com" required><br><br>
+
+
+                <label for="psw">Password: </label>
+                <input type="password" id="psw" name="psw" placeholder="12aqQ@ddffasdf"
+                    pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$" required><br><br>
+
+                <!-- <input type="checkbox" id="checkbox" name="checkbox">Remember me <br> -->
+                Don't have a an account?<a id="x" href="Sign_UP.html"> Sign Up</a>
+
+            </div>
+            <div class="b">
+                <input id="btn1" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

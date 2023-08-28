@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <title>SignIN</title>
+</head>
+
+<style>
+    body {
+        background-image: url('Picture/signin_login_backgroung.jpg');
+    }
+
+    .main {
+        margin-left: 250px;
+        animation-name: comm;
+        color: aquamarine;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes comm {
+        form {
+            color: aquamarine;
+        }
+
+        to {
+            color: brown;
+        }
+    }
+</style>
+
+<body>
+    <header>
+        <div class="head"><a id="a1" href="home.html">Home</a>
+            <a id="a1" href="About.html">About US</a>
+            <a id="a1" href="Menu.html">Menu</a>
+            <a id="a1" href="contact.html">Contact&nbsp;US</a>
+            <a id="a1" href="login.html">Login</a>
+        </div>
+    </header><br>
+
+
+    <div class="box1">
+        <form action="">
+            <div class="main">
+                <tr>
+                    <td>
+                        <h2>Sign UP</h3>
+                    </td>
+            </div>
+            <table>
+                <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="text" id="text" placeholder="First name" required></td>
+
+                </tr>
+
+                <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" name="text" id="text" placeholder="Last name" required></td>
+                </tr>
+
+                <tr>
+                    <td>DOB :</td>
+                    <td><input type="date" name="date" id="date" required></td>
+                </tr>
+
+                <tr>
+                    <td>Gender :</td>
+                    <td><input type="radio" name="gender">Male <input type="radio" name="gender">Female</td>
+                </tr>
+
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" name="email" placeholder="abc@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" name="psw" id="psw" placeholder="12aqQ@ddffasdf"
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$"></td>
+                </tr>
+
+                <div class="a">
+                    <tr>
+                        <td><input type="checkbox" id="checkbox" name="checkbox">Remember me</td>
+                        <td><a id="x" href="login.html">Back Login</a></td>
+                    </tr>
+                </div>
+                <tr>
+                    <div class="b1">
+                        <td><input id="btn1" type="submit" value="Submit"> <input id="btn1" type="reset" value="reset">
+                        </td>
+                    </div>
+                </tr>
+
+
+            </table>
+        </form>
+    </div>
+    <footer>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,382 @@
+* {
+    background-attachment: scroll;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ------------------------- HOME PAGE --------------------------------- */
+
+
+.head {
+    align-items: center;
+    padding-left: 500px;
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    background-color: black;
+    height: 30px;
+}
+
+
+#a1 {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------- BODY ------------------- */
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+.head1 {
+    margin-left: 10px;
+    padding: 0%;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    background-size: cover;
+    font-size: 15px;
+}
+
+input {
+    border-radius: 15px;
+    margin: 1px;
+}
+
+.row {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.pic {
+
+    margin: 0%;
+    padding: 0%;
+    margin-left: 80px;
+    margin-top: 50px;
+
+}
+
+
+
+/* ----------------------------- BUTTON -------------------------- */
+
+
+#btn1 {
+    height: 30px;
+    width: 50px;
+    margin: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 1;
+    transform: s;
+}
+
+input {
+    border-radius: 15px;
+    margin: 1px;
+}
+
+
+
+/* -------------------------------------- LOGIN PAGE ---------------------------------------------------------- */
+
+
+h3{
+    margin-left: 5px;
+    align-items: center;
+    color: rgba(255, 0, 0, 0.776);
+}
+
+.box {
+    background-repeat: no-repeat;
+    position: fixed;
+    padding: 0.5em 1em;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 180px;
+    border: 5px;
+    border-radius: 50px;
+    background-color: var(--clr-rgba);
+    padding: 25px;
+    width: 25%;
+    color: white;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.main {
+
+    padding: 5px;
+    margin-left: 85px;
+    /* margin-top: 20px; */
+    font-size: 25px;
+}
+
+
+.b {
+    transition: transform 3.0s;
+    background-color: 0.3s, color 0.3s;
+    background-size: 1rem;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 25px;
+
+    text-align: center;
+}
+
+
+.box:hover {
+    box-shadow: 10px 10px 50px lightslategray;
+}
+
+
+
+/* ----------------------------------------- SIGN UP ------------------------------------------- */
+
+
+
+.box1 {
+    background-repeat: no-repeat;
+    position: fixed;
+    padding: 0.5em 1em;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 180px;
+    border: 5px;
+    border-radius: 50px;
+    background-color: var(--clr-rgba);
+    padding: 25px;
+    width: 35%;
+    color: white;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.a {
+    text-decoration: none;
+    color: white;
+}
+
+
+#btn1:hover {
+    background-color: #030303;
+    color: yellow;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-left: -130px;
+    margin-bottom: 10px;
+}
+
+.box1:hover {
+    box-shadow: 10px 10px 100px lightslategray;
+}
+
+
+.b1 {
+    margin-left: 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+/* ------------------------------------- MENU PAGE -------------------------------------------- */
+
+#a2 {
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+#a2:hover {
+    color: red;
+}
+
+.a2 {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+#x1 {
+    margin: 20px;
+}
+
+#x1:hover {
+    box-shadow: 10px 10px 50px rgb(0, 0, 0);
+}
+
+
+
+/* ------------------------------- TEA PAGE ------------------------------------------ */
+
+
+#x2 {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+#x2:hover {
+    box-shadow: 10px 10px 50px rgb(99, 104, 104);
+}
+
+.box2 {
+
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+
+
+img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+
+/* ------------------------------------- COFFEE PAGE ------------------------------- */
+
+
+img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+#x4 {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.box3 {
+    margin-top: 50px;
+}
+
+#x3:hover {
+    box-shadow: 10px 10px 50px rgb(99, 104, 104);
+}
+
+#x3 {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+
+/* ---------------------------------------COLD COFFEE -------------------------------- */
+
+
+img {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    /* display: flex; */
+}
+
+#x4 {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+.box3 {
+    margin-top: 50px;
+}
+
+#x3:hover {
+    box-shadow: 10px 10px 50px rgb(99, 104, 104);
+}
+
+#x3 {
+    margin: 20px;
+    padding: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+/* ----------------------------------- HOVER --------------------------------------- */
+
+#btn1:hover {
+    background-color: #030303;
+    color: yellow;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+
+#x {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#x:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#a:hover {
+    color: red;
+    text-shadow: 2px red;
+}
+
+
+#a1 {
+    align-items: center;
+    margin-right: 20px;
+}
+
+#a1:hover {
+    color: red;
+}
+
+
+a:hover {
+    opacity: 1;
+}
+
+
+
+/* ------------------------------- Animatation --------------------------- */
+/* .main {
+    margin-left: 250px;
+    animation-name: com;
+    color: aquamarine;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes com {
+    form {
+        color: aquamarine;
+    }
+
+    to {
+        color: brown;
+    }
+} */
+
